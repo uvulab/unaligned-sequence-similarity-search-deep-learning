@@ -1,5 +1,4 @@
-Requires Tensorflow and Keras
-Uses Python 2. Should easily translate to Python 3 if you fix the print statements.
+Requires Tensorflow and Keras, optionally Matplotlib and Scikit-Learn
 
 **Important files:**
 
@@ -30,6 +29,8 @@ sequence_length: maximum sequence length. shorter sequences are ok, longer will 
 embed_size: length of embedding layer, just before output layer. Default is 256
 
 model_name: an arbitrary string to name this model, for saving and loading
+
+model_file or save_path: choose a directory in which to save your model
 
 model_template: should be dna_mask_blstm or aa_mask_blstm, see above
 
