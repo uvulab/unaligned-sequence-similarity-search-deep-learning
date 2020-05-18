@@ -4,13 +4,10 @@ from tensorflow import set_random_seed
 set_random_seed(2)
 
 import numpy as np
-#from keras.models import Sequential
-#from keras.layers import LSTM, Masking, Dense,  Bidirectional, Dropout, MaxPooling1D, Conv1D, Activation
-#from keras.optimizers import Adam
 
 from load_data import load_csv, get_onehot
 from ml_logging import Logger
-from model_templates import dna_mask_blstm, aa_mask_blstm, dspace
+from model_templates import dna_mask_blstm, aa_mask_blstm
 
 
 #EDIT THESE PARAMETERS (see README)-------------------------------------------

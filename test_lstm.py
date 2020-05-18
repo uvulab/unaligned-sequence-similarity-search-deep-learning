@@ -1,6 +1,6 @@
 
 from load_data import load_csv, get_onehot
-from model_templates import original_blstm, dna_blstm, dna_mask_blstm
+from model_templates import dna_mask_blstm, aa_mask_blstm
 from ml_logging import Logger
 
 #EDIT THESE PARAMETERS (see README)------------------------------------------
